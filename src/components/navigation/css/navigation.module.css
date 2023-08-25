@@ -1,0 +1,18 @@
+.navLink {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 20px 8px 20px;
+  position: relative;
+
+  width: 100px;
+
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.ul {
+  display: flex;
+  gap: 30px;
+  font-size: 35px;
+  list-style-type: none;
+}
