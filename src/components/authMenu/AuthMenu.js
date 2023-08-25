@@ -9,6 +9,10 @@ const AuthMenu = () => {
 
   const [shownModal, setShownModal] = useState(false);
 
+  const closeModal = () => {
+    setShownModal(false);
+  };
+
   return (
     <>
       <NavLink to="/register">
@@ -33,7 +37,7 @@ const AuthMenu = () => {
       <button type="button" >
         Модалка ОТКРОЙСЯ
       </button>
-      {shownModal && <Modal/>}
+      {shownModal && <Modal onClose={closeModal} />}
     </>
   );
 };
