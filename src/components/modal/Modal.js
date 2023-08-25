@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import { createPortal } from 'react-dom';
 
@@ -6,7 +6,22 @@ import css from './css/modal.module.css';
 
 const modalRoot = document.querySelector('#modalRoot');
 
-const Modal = () => {
+const Modal = ({ onClose }) => {
+
+    useEffect(() => {
+    const keyDown = event => {
+      if (event.code === 'Escape') {
+        onClose();
+      }
+    };
+
+    window.addEventListener('keydown', keyDown);
+
+    return () => {
+      window.removeEventListener('keydown', keyDown);
+    };
+  }, [onClose]);
+
     return createPortal(
     <div  className={css.overlay}>
       <div className={css.modal}>
