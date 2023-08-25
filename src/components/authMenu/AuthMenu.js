@@ -1,9 +1,14 @@
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import MaterialUI from '../../components/MaterialUI';
 import VpnKeyIcon from '@mui/icons-material/VpnKey';
 import LoginIcon from '@mui/icons-material/Login';
+import Modal from '../../components/modal/Modal';
 
 const AuthMenu = () => {
+
+  const [shownModal, setShownModal] = useState(false);
+
   return (
     <>
       <NavLink to="/register">
@@ -25,6 +30,10 @@ const AuthMenu = () => {
           LogIn
         </MaterialUI.Button>
       </NavLink>
+      <button type="button" >
+        Модалка ОТКРОЙСЯ
+      </button>
+      {shownModal && <Modal/>}
     </>
   );
 };

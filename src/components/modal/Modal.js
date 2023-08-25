@@ -35,3 +35,5 @@ const Modal = () => {
     modalRoot
   );
 };
+
+export default Modal;
