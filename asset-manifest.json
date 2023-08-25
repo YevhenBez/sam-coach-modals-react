@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sam-coach-modals-react/static/css/main.f4f5aa34.css",
-    "main.js": "/sam-coach-modals-react/static/js/main.93e4e89e.js",
+    "main.js": "/sam-coach-modals-react/static/js/main.58f0e17c.js",
     "static/css/127.f26d36b9.chunk.css": "/sam-coach-modals-react/static/css/127.f26d36b9.chunk.css",
     "static/js/127.b528c45d.chunk.js": "/sam-coach-modals-react/static/js/127.b528c45d.chunk.js",
     "static/js/998.7ebd8f44.chunk.js": "/sam-coach-modals-react/static/js/998.7ebd8f44.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/593.31429873.chunk.js": "/sam-coach-modals-react/static/js/593.31429873.chunk.js",
     "index.html": "/sam-coach-modals-react/index.html",
     "main.f4f5aa34.css.map": "/sam-coach-modals-react/static/css/main.f4f5aa34.css.map",
-    "main.93e4e89e.js.map": "/sam-coach-modals-react/static/js/main.93e4e89e.js.map",
+    "main.58f0e17c.js.map": "/sam-coach-modals-react/static/js/main.58f0e17c.js.map",
     "127.f26d36b9.chunk.css.map": "/sam-coach-modals-react/static/css/127.f26d36b9.chunk.css.map",
     "127.b528c45d.chunk.js.map": "/sam-coach-modals-react/static/js/127.b528c45d.chunk.js.map",
     "998.7ebd8f44.chunk.js.map": "/sam-coach-modals-react/static/js/998.7ebd8f44.chunk.js.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.f4f5aa34.css",
-    "static/js/main.93e4e89e.js"
+    "static/js/main.58f0e17c.js"
   ]
 }
