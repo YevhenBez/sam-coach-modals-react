@@ -9,6 +9,10 @@ const AuthMenu = () => {
 
   const [shownModal, setShownModal] = useState(false);
 
+  const onModal = () => {
+    setShownModal(true);
+  };
+
   const closeModal = () => {
     setShownModal(false);
   };
@@ -34,7 +38,7 @@ const AuthMenu = () => {
           LogIn
         </MaterialUI.Button>
       </NavLink>
-      <button type="button" >
+      <button type="button" onClick={onModal} >
         Модалка ОТКРОЙСЯ
       </button>
       {shownModal && <Modal onClose={closeModal} />}
