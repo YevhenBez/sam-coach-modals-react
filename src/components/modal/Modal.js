@@ -22,8 +22,14 @@ const Modal = ({ onClose }) => {
     };
   }, [onClose]);
 
+  const onOverlayClose = event => {
+    if (event.currentTarget === event.target) {
+      onClose();
+    }
+  };
+
     return createPortal(
-    <div  className={css.overlay}>
+    <div onClick={onOverlayClose} className={css.overlay}>
       <div className={css.modal}>
         <form className={css.formStyle} >
       <label className={css.labelStyle}>
