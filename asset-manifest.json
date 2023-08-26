@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sam-coach-modals-react/static/css/main.f4f5aa34.css",
-    "main.js": "/sam-coach-modals-react/static/js/main.634419c0.js",
+    "main.css": "/sam-coach-modals-react/static/css/main.9697a589.css",
+    "main.js": "/sam-coach-modals-react/static/js/main.80a81363.js",
     "static/css/127.f26d36b9.chunk.css": "/sam-coach-modals-react/static/css/127.f26d36b9.chunk.css",
     "static/js/127.b528c45d.chunk.js": "/sam-coach-modals-react/static/js/127.b528c45d.chunk.js",
     "static/js/998.7ebd8f44.chunk.js": "/sam-coach-modals-react/static/js/998.7ebd8f44.chunk.js",
@@ -11,8 +11,8 @@
     "static/js/451.c85a0067.chunk.js": "/sam-coach-modals-react/static/js/451.c85a0067.chunk.js",
     "static/js/593.31429873.chunk.js": "/sam-coach-modals-react/static/js/593.31429873.chunk.js",
     "index.html": "/sam-coach-modals-react/index.html",
-    "main.f4f5aa34.css.map": "/sam-coach-modals-react/static/css/main.f4f5aa34.css.map",
-    "main.634419c0.js.map": "/sam-coach-modals-react/static/js/main.634419c0.js.map",
+    "main.9697a589.css.map": "/sam-coach-modals-react/static/css/main.9697a589.css.map",
+    "main.80a81363.js.map": "/sam-coach-modals-react/static/js/main.80a81363.js.map",
     "127.f26d36b9.chunk.css.map": "/sam-coach-modals-react/static/css/127.f26d36b9.chunk.css.map",
     "127.b528c45d.chunk.js.map": "/sam-coach-modals-react/static/js/127.b528c45d.chunk.js.map",
     "998.7ebd8f44.chunk.js.map": "/sam-coach-modals-react/static/js/998.7ebd8f44.chunk.js.map",
@@ -23,7 +23,7 @@
     "593.31429873.chunk.js.map": "/sam-coach-modals-react/static/js/593.31429873.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4f5aa34.css",
-    "static/js/main.634419c0.js"
+    "static/css/main.9697a589.css",
+    "static/js/main.80a81363.js"
   ]
 }
