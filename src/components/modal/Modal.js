@@ -28,27 +28,43 @@ const Modal = ({ onClose }) => {
     }
   };
 
+  const modalClose = event => {
+      onClose();
+  };
+
     return createPortal(
     <div onClick={onOverlayClose} className={css.overlay}>
-      <div className={css.modal}>
+        <div className={css.modal}>
+          <h2 className={css.titleName}>Edit  profile</h2>
+          <button type="button" className={css.btnClose} onClick={modalClose}>
+        Модалка ЗАКРОЙСЯ
+      </button>
         <form className={css.formStyle} >
       <label className={css.labelStyle}>
-        Name
         <input
           className={css.inputName}
           type="text"
+          placeholder="Name"
           
         />
       </label>
       <label className={css.labelStyle}>
-        Email
         <input
           className={css.inputName}
           type="email"
+          placeholder="Email"
+        />
+      </label>
+      <label className={css.labelStyle}>
+        <input
+          className={css.inputName}
+          type="text"
+          placeholder="Password"
+          
         />
       </label>
       <button type="submit" className={css.btnAdd}>
-        Add contact
+        Send
       </button>
     </form>
       </div>
