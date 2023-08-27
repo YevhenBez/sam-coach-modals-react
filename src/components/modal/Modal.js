@@ -3,10 +3,13 @@ import React, { useEffect } from 'react';
 import { createPortal } from 'react-dom';
 
 import css from './css/modal.module.css';
+import { useSelector} from 'react-redux';
+import { selectUser } from '../../redux/auth/authSelectors';
 
 const modalRoot = document.querySelector('#modalRoot');
 
 const Modal = ({ onClose }) => {
+  const user = useSelector(selectUser);
 
     useEffect(() => {
     const keyDown = event => {
@@ -44,7 +47,7 @@ const Modal = ({ onClose }) => {
         <input
           className={css.inputName}
           type="text"
-          placeholder="Name"
+          placeholder={user.name}
           
         />
       </label>
@@ -52,7 +55,7 @@ const Modal = ({ onClose }) => {
         <input
           className={css.inputName}
           type="email"
-          placeholder="Email"
+          placeholder={user.email}
         />
       </label>
       <label className={css.labelStyle}>
